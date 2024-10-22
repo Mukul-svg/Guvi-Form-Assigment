@@ -31,12 +31,11 @@ document.getElementById('contactForm')?.addEventListener('submit', async (event)
   
       if (response.ok) {
         alert("Form submitted successfully");
-        (document.getElementById('status') as HTMLElement).innerText = "Form Submitted Successfully!";
       } else {
         throw new Error('Form submission failed.');
       }
     } catch (error) {
-      (document.getElementById('status') as HTMLElement).innerText = "Submission Failed!";
+      alert("Error while submitting the form");
     }
   });
   

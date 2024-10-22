@@ -126,17 +126,6 @@ header {
   background-color: #388e3c;
 }
 
-
-/* footer {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #f8f8f8;
-  color: #6b7280;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-} */
-
 .container {
   width: 85%;
   display:flex;

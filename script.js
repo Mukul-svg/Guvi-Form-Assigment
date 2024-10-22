@@ -70,7 +70,6 @@ var _this = this;
                 response = _a.sent();
                 if (response.ok) {
                     alert("Form submitted successfully");
-                    document.getElementById('status').innerText = "Form Submitted Successfully!";
                 }
                 else {
                     throw new Error('Form submission failed.');
@@ -78,7 +77,7 @@ var _this = this;
                 return [3 /*break*/, 4];
             case 3:
                 error_1 = _a.sent();
-                document.getElementById('status').innerText = "Submission Failed!";
+                alert("Error while submitting the form");
                 return [3 /*break*/, 4];
             case 4: return [2 /*return*/];
         }
